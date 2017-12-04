@@ -77,7 +77,9 @@ var app = {
       // has polluted the window namespace with WebRTC class/functions).
 
       //TODO: Add your own js file here after device ready		  
-      ["js/ios-websocket-hack.js",
+      ["js/lib/jquery-2.2.1.min.js",
+        "js/lib/materialize.min.js",
+        "js/ios-websocket-hack.js",
         "js/init.js",
         "js/C3WidgetController.js",
         "js/C3LoginWidget.js",        
@@ -93,11 +95,11 @@ var app = {
           document.getElementsByTagName("body")[0].appendChild(script);
         });
 
-    }, 1000);
+    }, 100);
 
     setTimeout(function () {
       app.initC3Widgets();
-    }, 1500)
+    }, 1000)
 
 
   },

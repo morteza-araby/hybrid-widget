@@ -12,3 +12,101 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+.side-nav .userView {
+	padding: 0;
+}
+.side-nav-header {
+	height: 64px;
+	background-color: #ee6e73;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+header, main, footer {
+	padding-left: 300px;
+}
+/* @media only screen and (min-width: 1200px) {
+	header, main, footer {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+} */
+video {
+	object-fit: cover;
+}
+.video-container {
+	display: block;
+	padding-bottom: 0;
+	height: 100%;
+}
+.video-card{
+	/* display: none; */
+	flex: 4;
+}
+.chat-card {
+	flex:1;
+}
+.self-video{
+	position: absolute;
+	height: 10%;
+}
+.remote-video{
+width: 100%;
+}
+
+.icon-block {
+	padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+
+.my-container {
+	display:flex;
+	flex-direction: column;
+	margin:auto 10px;
+}
+.card {
+	height: 100%;
+	width: 100%;
+}
+@media only screen and (max-width: 992px) {
+	header, main, footer {
+			padding-left: 0;
+	}
+}
+
+@media screen and (min-width: 992) {
+	.card{
+		padding-left: 20%;
+	}
+}
+.card .card-image .card-title {
+	width: 100%;
+}
+
+.fixed-action-btn {
+	position: relative;
+	right: 0px;
+	bottom: 0px;
+}
+.fixed-action-btn.horizontal {
+	width: 100%;
+}
+.fixed-action-btn.horizontal ul {
+	left: 0px;
+	width: 100%;
+	text-align: center;
+}
+/* .fixed-action-btn ul {
+	visibility: visible;
+} */
+/* .fixed-action-btn ul a.btn-floating {
+	opacity: 1;
+} */

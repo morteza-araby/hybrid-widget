@@ -2,6 +2,7 @@
   $(function () {
     $('.button-collapse').sideNav();
     $('.collapsible').collapsible();
+    $('.carousel').carousel();
     /**
  * Widget
  */

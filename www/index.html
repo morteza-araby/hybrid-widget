@@ -49,42 +49,45 @@
 </head>
 
 <body>
-    <nav class="light-blue lighten-1" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#">Navbar Link</a></li>
-            </ul>
-
-            <ul id="nav-mobile" class="side-nav">
-                <li><a href="#">Navbar Link</a></li>
-            </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>
-
-
-    <div class="container-fluid">
-        <div class="section">
-            <div class="row">
-            <div class="col s6 offset-s3" id="c3login-container"></div>
-            </div>
-            <!--   Icon Section   -->
-            <div class="row">
-                <div class="col s12 m4 l4">                                    
-                    <div id="c3user-profile-container"></div>
+    <header>
+        <nav class="nav-extended" role="navigation">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">Logo</a>
+                <ul id="slide-out" class="side-nav fixed">
+                    <div class="side-nav-header"></div>
+                    <li>
+                        <div class="userView">
+                            <div id="c3user-profile-container"></div>
+                        </div>
+                    </li>
                     <div id="c3user-rooms-container"></div>
-                </div>
-                <div class="col s12 m4 l4">
-                    <div id="c3chat-container"></div>                   
-                </div>
-                <div class="col s12 m4 l4">
-                    <div id="c3call-container"></div>                   
-                </div>
+                </ul>
+                <a href="#" data-activates="slide-out" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
             </div>
+        </nav>
+    </header>
 
+    <main>
+        <div class="row">
+            <div class="col s6 offset-s3" id="c3login-container"></div>
+            <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+                    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+                    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+                    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+                    <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+                  </div>
         </div>
-        <br><br>
-    </div>
+        <div class="row" id="index-banner">
+            <div class="my-container">
+                <div id="c3call-container"></div>
+                <div id="c3chat-container"></div>
+            </div>
+        </div>
+
+    </main>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </body>

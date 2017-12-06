@@ -7,6 +7,7 @@
     "cordova-plugin-camera": "git+https://github.com/eface2face/cordova-plugin-camera.git#bc21b38ec77850203d56aad8568812acb1570de2",
     "cordova-plugin-crosswalk-webview": "git+https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview.git",
     "cordova-plugin-device": "^1.1.7",
+    "cordova-plugin-firebase": "^0.1.25",
     "cordova-plugin-iosrtc": "git+https://github.com/morteza-araby/cordova-plugin-iosrtc.git",
     "cordova-plugin-whitelist": "^1.3.3",
     "xcode": "^0.8.0"
@@ -31,7 +32,8 @@
         "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
         "XWALK_MODE": "embedded",
         "XWALK_MULTIPLEAPK": "true"
-      }
+      },
+      "cordova-plugin-firebase": {}
     },
     "platforms": [
       "android"

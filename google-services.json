@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1074649196023",
+    "firebase_url": "https://pushnotification-b52bf.firebaseio.com",
+    "project_id": "pushnotification-b52bf",
+    "storage_bucket": "pushnotification-b52bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074649196023:android:c410b7e4dded791f",
+        "android_client_info": {
+          "package_name": "net.ericsson.c3.pnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074649196023-msj2hoka6vkfgfiedogkneb28m3a21sd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJBrSnRKIsxoBkBfYHA4ZkZVNMy-Pk0hY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
